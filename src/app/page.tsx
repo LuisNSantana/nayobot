@@ -10,7 +10,7 @@ export default function SloganGenerator() {
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Nayochat
         </span>{" "}
-        IA progresiva.
+        El futuro esta acá.
       </h1>
       {messages.map((message) => {
         const isBot = message.role !== "user";
